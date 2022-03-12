@@ -1,0 +1,217 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="styles.css ">
+        <title>Document</title>
+    </head>
+    
+    <body>
+    
+        <!-- on utilise la classe container-fluid pour ajouter le padding du navbar -->
+        <div class="container-fluid">
+    
+            <!-- class pour creer un navbar du header  -->
+            <!-- on utilise la classe justify-content-end pour placer les items du navbar vers la droit  -->
+            <a href="index.html"><img class="ImageGroup" src="Assets/Images/group-2.svg" alt="Bootstrap" width="60" height="60"></a>
+            <ul class="nav justify-content-end" style="background: #d35649;">
+    
+    
+                <li class="nav-item">
+    
+                    <a class="nav-link active" href="search.html"> <img class="svgIcon" src="Assets/Icones/search_icon.svg"
+                            alt="Bootstrap" width="30" height="30" style="padding-right: 5px;"> <span
+                            class="sp">Search</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html"> <img class="svgIcon" src="Assets/Icones/about_icon.svg"
+                            alt="Bootstrap" width="30" height="30" style="padding-right: 5px;"><span
+                            class="sp">About</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img class="svgIcon" src="Assets/Icones/blog_icon.svg" alt="Bootstrap"
+                            width="30" height="30" style="padding-right: 5px;"><span class="sp">Blog</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link "><img class="svgIcon" src="Assets/Icones/more_icon.svg" alt="Bootstrap" width="30"
+                            height="30" style="padding-right: 5px;"><span class="sp">More</span></a>
+                </li>
+            </ul>
+        </div>
+    
+    <!-- voici le corps du page -->
+    <!-- voici la premier section avec form et image -->
+
+     <div class="jumbotron mt-4">
+        <h4 class="display-10 text-center " style="color: #444;;">Filter by location ,  host , subject ,date , daytime</h4>
+
+        <form class="format">
+            <div class="form-row  mt-5">
+                <div class="col-md-2 col-sm-12">
+                    <label for="Host">Host</label>
+                    <input type="text" class="form-control" >
+                </div>
+                <div class="col-md-2 col-sm-6">
+                    <label for="Location">Location</label>
+                    <input type="text" class="form-control" >
+                </div>
+                <div class="col-md-1 col-sm-6">
+                    <label for="Subject">Subject</label>
+                    <input type="text" class="form-control" >
+                </div>
+                <div class="col-md-1 col-sm-3>
+                <div class="">
+                    <label for="Initial">initial date</label>
+                    <input type="date" class="form-control" >
+                </div>
+                <div class="col-md-1 col-sm-6 ">
+                    <label for="inputEmail4">Final date</label>
+                    <input type="date" class="form-control" placeholder="Last name">
+                </div>
+                <div class="col-md-2 col-sm-6">
+                    <label for="inputEmail4">Email</label>
+                    <select class="custom-select">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+
+                <div class="col-md-2 col-sm-6 mt-4">
+                    <button class="btn btn-primary">search</button>
+                    <button class="btn btn-warning">clear Filter</button>
+                </div>
+                
+            </div>
+        </form>
+     </div>
+
+    <!-- card image -->
+
+     <div class="row justify-content-sm-center mt-5 mb-5 cart">
+
+        <div class="col-sm-2 ">
+
+            <div class="card m-3" style="width: 18rem; background-color: #d35649;">
+                <img class="card-img-top " src="Assets/Images/group-2.svg" alt="Card image cap">
+            
+            </div>
+            
+        </div>
+        <div class="col-sm-2 ">
+        
+            <div class="card m-3" style="width: 18rem; background-color: #d35649;">
+                <img class="card-img-top " src="Assets/Images/group-2.svg" alt="Card image cap">
+        
+            </div>
+        
+        </div>
+        <div class="col-sm-2 ">
+        
+            <div class="card m-3" style="width: 18rem; background-color: #d35649;">
+                <img class="card-img-top " src="Assets/Images/group-2.svg" alt="Card image cap">
+        
+            </div>
+        
+        </div>
+     </div>
+
+    <!-- voici le pied du page -->
+        <div class="footer container>
+                <div class=" part1">
+        
+            <br>
+        
+            <div class="row items justify-content-center">
+        
+                <div class="div1">
+                    <span class="item">HOME</span>
+                    <span class="item"> SEARCH</span>
+                    <span class="item"> ABOUT US</span>
+                    <span class="item"> ADVERTISE</span>
+                </div>
+        
+                <div class="circle">
+                    <img class="svgIconFooter" src="Assets/Icones/mapsnavbar_icon.svg" alt="Bootstrap" width="30" height="30" ">
+                                    </div>
+                                        <div class=" div1">
+                    <span class="item">HOME</span>
+                    <span class="item"> SEARCH</span>
+                    <span class="item"> ABOUT US</span>
+                    <span class="item"> ADVERTISE</span>
+                </div>
+        
+            </div>
+        
+        
+        
+            <div class="part2">
+        
+                <div class="row mt-5">
+                    <div class="col-md-2 mx-auto text-center ">
+                        <h4 style="color: aliceblue ; ">Suscribe</h>
+        
+                            <div class="input-group mb-3 mt-4">
+                                <input type="text" class="form-control" placeholder="Insert your email here"
+                                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Send</button>
+                            </div>
+                    </div>
+                    <div class="col-md-2 mx-auto text-center">
+                        <h4 style="color: aliceblue;">Contact</h4>
+                        <div class="content">
+                            <h6 class="mt-3 text-center" style="color: aliceblue;"> have question or suggestion ?</h6>
+        
+                            <h6 class="mt-3 text-center" id="emailFooter" style="color: #d35649;"> contacts@events.com</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mx-auto text-center">
+                        <h4 style="color: aliceblue;">About</h4>
+        
+                        <p class="mt-3 " style="color: aliceblue;"> is an online platform that works to improve and increase
+                            social life conections, when this nightmare that we are currently living in is over <span
+                                style="color: #d35649;" id="learnMore">learn more</span></p>
+        
+                    </div>
+                </div>
+            </div>
+            <div class="part3 mt-5">
+                <div class=" row ">
+        
+                    <div class="col-md-10 " ">
+                         <div class=" row p-md-3 ml-3" id="footerMenu">
+        
+                        <img src="Assets/Icones/facebook_icon.svg" alt="Bootstrap" width="30" height="30"
+                            style="padding-right: 5px;">
+                        <img src="Assets/Icones/twitter_icon.svg" alt="Bootstrap" width="30" height="30"
+                            style="padding-right: 5px;">
+                        <img src="Assets/Icones/instagram_icon.svg" alt="Bootstrap" width="30" height="30"
+                            style="padding-right: 5px;">
+                        <img src="Assets/Icones/tumblr_icon.svg" alt="Bootstrap" width="30" height="30"
+                            style="padding-right: 5px;">
+                        <img src="Assets/Icones/linkedin_icon.svg" alt="Bootstrap" width="30" height="30"
+                            style="padding-right: 5px;">
+                    </div>
+        
+                </div>
+        
+                <div class=" col-md-2 col-sm-2 mt-2 foot2 ">
+                    <p>&copy; 2020 Inc.All rights reserved</p>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+        
+        
+        </div>
+        </body>
+        
+        </html>
